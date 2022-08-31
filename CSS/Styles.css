@@ -1,0 +1,53 @@
+/* Tag Selectors */
+body {
+  background: #302A77;
+  text-align: center;
+}
+
+/* Class Selectors */
+.Title {
+  font-family: 'Press Start 2P', cursive;
+  color: #F1E6D1;
+}
+
+.Btn {
+  margin: 25px;
+  display: inline-block;
+  border: 10px solid;
+  border-color: #000;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 15%;
+}
+
+.Green {
+  background-color: green;
+}
+
+.Red {
+  background-color: red;
+}
+
+.Blue {
+  background-color: blue;
+}
+
+.Yellow {
+  background-color: yellow;
+}
+
+.Btn:active {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.game-over-title {
+  color: black;
+}
+
+/* Id Selectors */
